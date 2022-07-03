@@ -1,7 +1,7 @@
 import 'dart:io';
 void main(){
   print("Enter the limit:");
-  int lmt = int.parse(stdin.readLineSync()!);
+  int lmt = int.parse(stdin.readLineSync().toString());
   for(int i = 0 ; i< lmt; i++)
   {
     for(int j=(lmt-i);j>1;j--){

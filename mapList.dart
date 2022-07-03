@@ -51,11 +51,10 @@ void main() {
     "support": {
       "url": "https://reqres.in/#support-heading",
       "text":
-          "To keep ReqRes free, contributions towards server costs are appreciated!"
+      "To keep ReqRes free, contributions towards server costs are appreciated!"
     }
   };
-for(int i=0;i<6;i++){
-  print('${perdata["data"][i]["first_name"]} ${perdata["data"][i]["last_name"]}');
-}
-
+  for(int i=0;i<perdata.length;i++){
+    print('${perdata["data"][i]["first_name"]} ${perdata["data"][i]["last_name"]}');
   }
+}
