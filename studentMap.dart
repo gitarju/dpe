@@ -1,0 +1,24 @@
+void main(){
+  Map<String,dynamic>studentMap={
+    "roll_no":1,
+    "name":"ashi",
+    "age":"22",
+  };
+  List<Map<String,dynamic>>mark=[
+    {
+      "roll_no":1,
+      "Subject":"maths",
+      "mark":15,
+    },
+  {
+  "roll_no":1,
+  "Subject":"malayalam",
+  "mark":48,
+  },
+  {
+  "roll_no":1,
+  "Subject":"english",
+  "mark":65,
+  },
+  ];
+}
